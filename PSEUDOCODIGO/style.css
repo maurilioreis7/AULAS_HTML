@@ -1,0 +1,29 @@
+ div{
+    display: inline-block;
+    /* inline tudo na mesma linha */
+
+    background-color: aqua;
+    border: 5px solid black;
+    
+
+    text-align: center;
+    height: 200px;
+    width: 200px;
+
+ }
+
+div:hover{
+
+    background-color: yellow;
+    color: white;
+    border: 5px dashed red;
+    box-shadow: black 3px 3px 3px;
+
+}
+
+#btn{
+    width: 170px;
+    height: 95px;
+    border-radius: 15px;
+    background-color: blue;
+}

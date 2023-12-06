@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <script>
+        function calcularMedia() {
+        let valor1;
+        let valor2;
+        let valor3;
+        let valor4;
+        let media;
+    
+       let nota1 = parseFloat (document.getElementById("nota1").value);
+       let nota2 = parseFloat (document.getElementById("nota2").value);
+       let nota3 = parseFloat (document.getElementById("nota3").value);
+       let nota4 = parseFloat (document.getElementById("nota4").value);
+       
+       let soma = (nota1+nota2+nota3+nota4)/4;
+        alert (soma);   
+
+
+        if (media >= 7) {
+            alert("aprovado com média "+media)
+        } else if (media < 6) {
+            alert("reprovado com média "+media)
+        } else {
+            alert("recuperação com média "+media);
+        }
+    }
+
+
+    </script>
+</head>
+<body>
+    <h1>Cálculo da média</h1>
+
+    <label for=""></label>
+    <input type="text" nota="" id="nota1" placeholder="nota 1">
+
+    <label for=""></label>
+    <input type="text" nota="" id="nota2" placeholder="nota 2">
+
+    <label for=""></label>
+    <input type="text" nota="" id="nota3" placeholder="nota 3">
+
+    <label for=""></label>
+    <input type="text" nota="" id="nota4" placeholder="nota 4">
+
+    
+    <input type="button" onclick="calcularMedia()"  value="Calcular">
+
+
+</body>
+</html>

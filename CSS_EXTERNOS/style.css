@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgba(165, 42, 42, 0.888);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+       }
+
+       h1{
+        color:burlywood;
+        background-color: rgba(139, 0, 139, 0.855);
+       }
+
+    h2{
+        color:chartreuse;
+    }
+    
+    p{
+        text-align: justify;
+        color: blue;
+    }
+        
+    
